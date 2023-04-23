@@ -122,7 +122,6 @@ export const Header = () => {
           </ul>
           <button>Sign Up!</button>
         </nav>
-
         <div className={styles.tiles}>
           <div className={styles.slider}>
             {slides.map((slide, index) => (

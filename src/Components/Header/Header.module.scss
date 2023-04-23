@@ -4,6 +4,7 @@ $asset-path: "../../assets/";
   width: 100%;
   display: flex;
   .left_block {
+    margin-left: 8%;
     width: 50%;
     .logo {
     }
@@ -32,6 +33,8 @@ $asset-path: "../../assets/";
     }
 
     .tiles {
+      margin-top: 53vh;
+
       .slider {
         width: 100%;
         height: 104px;
