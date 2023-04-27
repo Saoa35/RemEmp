@@ -1,9 +1,11 @@
 import "./App.scss";
+import { Footer } from "./Components/Footer/Footer";
 import { Header } from "./Components/Header/Header";
 import { OurReview } from "./Components/OurReview/OurReview";
 import { Partnership } from "./Components/Partnership/Partnership";
 import { ReadyToSell } from "./Components/ReadyToSell/ReadyToSell";
 import { Recomendation } from "./Components/Recomendation/Recomendation";
+import { Subscribe } from "./Components/Subscribe/Subscribe";
 
 function App() {
   return (
@@ -24,8 +26,13 @@ function App() {
         <section>
           <Partnership />
         </section>
+        <section>
+          <Subscribe />
+        </section>
       </main>
-      <footer></footer>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }
