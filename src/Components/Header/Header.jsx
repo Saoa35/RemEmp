@@ -126,11 +126,13 @@ export const Header = () => {
 
       <div className={styles.right_block}>
         <nav className={styles.menu}>
-          <ul className={styles.menu_list}>
-            <li>about us</li>
-            <li>article</li>
-            <li className={styles.property} onClick={handleClick}>
-              property
+          <div className={styles.menu_list}>
+            <p>about us</p>
+            <p>article</p>
+          </div>
+          <div className={styles.property} onClick={handleClick}>
+            <div>
+              <p>property</p>
               <svg
                 width="11"
                 height="6"
@@ -143,16 +145,16 @@ export const Header = () => {
                   fill="white"
                 />
               </svg>
-              {isOpen && (
-                <ul>
-                  <li>House</li>
-                  <li>Villa</li>
-                  <li>Apartment</li>
-                </ul>
-              )}
-            </li>
-            <li className={styles.signup}>sign up!</li>
-          </ul>
+            </div>
+            {isOpen && (
+              <ul>
+                <li>House</li>
+                <li>Villa</li>
+                <li>Apartment</li>
+              </ul>
+            )}
+          </div>
+          <button className={styles.signup}>sign up!</button>
         </nav>
         <div className={styles.tiles}>
           <div className={styles.slider}>
