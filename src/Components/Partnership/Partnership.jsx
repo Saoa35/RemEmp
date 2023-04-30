@@ -43,12 +43,12 @@ export const Partnership = () => {
       <div className={styles.top}>
         <svg
           width="32"
-          height="1"
+          height="2"
           viewBox="0 0 32 1"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
-          <rect width="32" height="1" fill="#F59E0B" />
+          <rect width="32" height="2" fill="#F59E0B" />
         </svg>
         <p>See tips and trick from our partnership</p>
         <h1>Find out more about selling and buying homes</h1>
