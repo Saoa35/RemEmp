@@ -51,7 +51,10 @@ export const Partnership = () => {
           <rect width="32" height="2" fill="#F59E0B" />
         </svg>
         <p>See tips and trick from our partnership</p>
-        <h1>Find out more about selling and buying homes</h1>
+        <h1>
+          <span>Find out more about</span>
+          <span>selling and buying homes</span>
+        </h1>
         <button>More Artikel</button>
       </div>
       <div className={styles.content}>
@@ -90,7 +93,7 @@ export const Partnership = () => {
           })}
         </div>
         <div className={styles.right}>
-          <img src={rectangle25} alt="rectangle25" />
+          <img className={styles.view} src={rectangle25} alt="rectangle25" />
           <div className={styles.card_content}>
             <p className={styles.user}>
               <img src={ellipse9} alt="ellipse9" />

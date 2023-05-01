@@ -6,7 +6,7 @@ import revuePik3 from "../../assets/img/revuePic3.png";
 
 import recomendation1 from "../../assets/img/recomendation1.png";
 import recomendation2 from "../../assets/img/recomendation2.png";
-import recomendation3 from "../../assets/img/recomendation3.png";
+// import recomendation3 from "../../assets/img/recomendation3.png";
 import recomendation4 from "../../assets/img/recomendation4.png";
 
 export const OurReview = () => {

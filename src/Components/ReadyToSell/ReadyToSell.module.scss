@@ -163,12 +163,14 @@
       }
 
       .rectangle1 {
+        object-fit: cover;
         width: 33.9vw;
         height: 47.95vh;
         z-index: -1;
       }
 
       .rectangle2 {
+        object-fit: cover;
         position: absolute;
         z-index: 1;
         width: 20.57vw;
@@ -178,6 +180,7 @@
       }
 
       .rectangle3 {
+        object-fit: cover;
         position: absolute;
         z-index: 1;
         width: 6.67vw;
@@ -187,6 +190,7 @@
       }
 
       .rectangle4 {
+        object-fit: cover;
         position: absolute;
         z-index: 1;
         width: 6.67vw;
